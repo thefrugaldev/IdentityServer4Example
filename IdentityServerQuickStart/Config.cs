@@ -1,8 +1,5 @@
 ﻿using IdentityServer4.Models;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace IdentityServerQuickStart
 {
@@ -13,6 +10,29 @@ namespace IdentityServerQuickStart
             return new List<ApiResource>
             {
                 new ApiResource("api1", "Clayton's API")
+            };
+        }
+
+        public static IEnumerable<Client> GetClients()
+        {
+            return new List<Client>
+            {
+                new Client
+                {
+                    ClientId = "client",
+
+                    //no interactive user, use the clientid/secret for authentication
+                    AllowedGrantTypes = GrantTypes.ClientCredentials,
+
+                    //secret for authentication
+                    ClientSecrets =
+                    {
+                        new Secret("secret".Sha256())
+                    },
+
+                    //scopes this client has access to
+                    AllowedScopes = { "api1" }
+                }
             };
         }
     }

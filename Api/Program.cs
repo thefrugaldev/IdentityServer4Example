@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 
-namespace IdentityServerQuickStart
+namespace Api
 {
     public class Program
     {
