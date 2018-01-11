@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2020
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityServerQuickStart", "IdentityServerQuickStart\IdentityServerQuickStart.csproj", "{D2146BB9-9F0A-4939-91D3-ADDD7A437112}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentityServerQuickStart", "IdentityServerQuickStart\IdentityServerQuickStart.csproj", "{D2146BB9-9F0A-4939-91D3-ADDD7A437112}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api", "Api\Api.csproj", "{9B789EF7-CEB8-4131-9891-30B92F75D5AE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Api", "Api\Api.csproj", "{9B789EF7-CEB8-4131-9891-30B92F75D5AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleClient", "ConsoleClient\ConsoleClient.csproj", "{6ED6EEFA-D6D6-4F31-977B-587EA2E862E0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{9B789EF7-CEB8-4131-9891-30B92F75D5AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9B789EF7-CEB8-4131-9891-30B92F75D5AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9B789EF7-CEB8-4131-9891-30B92F75D5AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6ED6EEFA-D6D6-4F31-977B-587EA2E862E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6ED6EEFA-D6D6-4F31-977B-587EA2E862E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6ED6EEFA-D6D6-4F31-977B-587EA2E862E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6ED6EEFA-D6D6-4F31-977B-587EA2E862E0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
