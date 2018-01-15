@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-
-namespace IdentityServerWithAspNetIdentity.Models.AccountViewModels
+﻿namespace IdentityServerWithAspNetIdentity.Models.AccountViewModels
 {
     public class LoggedOutViewModel
     {
